@@ -1,0 +1,36 @@
+title: "&2Contraband Shop"
+rareClock:
+  title: "&cTimer"
+  lores:
+    - '&c%contraband_timer_rare%'
+commonClock:
+  title: "&cTimer"
+  lores:
+   - '%contraband_timer_common%'
+messages:
+  balance: "&aYou have %contraband% contrabands"
+  unknownPlayer: "&cUser not online!"
+  notEnoughBal: "&cYou do not have enough contrabands!"
+  tradingSuccess: "&aYou have successfully given %contraband% to %target%"
+  tradingTarget: "&a%contraband% contrabands have given from %player%"
+  tradingError: "&cYou do not have enough contrabands to give"
+  contrabandcollect: "&a+1 Contraband Collected"
+  noPermission: "&cMissing permission"
+  giveAddSuccess: "&aYou have given %target% %contraband% contrabands!"
+  giveRemoveSuccess: "&aYou have removed %target% %contraband% contrabands!"
+  giveError: "&cRecheck your command: /contraband admin <pay/remove> <player> <amount>"
+  reload: "&aPlugin reloaded!"
+  enableCollectMsg: "&aEnabled collect"
+  disableCollectMsg: "&aDisabled collect"
+  invalidNumber: "&aPlease use number higher than 0"
+  helpMessage:
+    - "Hello"
+    - "Help example here!"
+shopOrder:
+  rare: []
+  common: []
+countdownTime:
+  rare: 36000
+  common: 36000
+blocksContraband:
+  - GRASS:0;75
